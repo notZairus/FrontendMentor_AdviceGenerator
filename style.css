@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 100dvh;
+  min-height: 100dvh;
   background-color: hsl(218, 23%, 16%);
   display: flex;
   align-items: center;
