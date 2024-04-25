@@ -29,7 +29,6 @@ function fetchAdvice() {
 function displayAdvice(slip) {
   let main = document.querySelector("main");
   let firstChild = main.firstElementChild;
-  
   firstChild.textContent = `ADVICE #${slip.slip.id}`;
   firstChild.nextElementSibling.textContent = `"${slip.slip.advice}"`;
 }
