@@ -1,7 +1,7 @@
 
 window.addEventListener("DOMContentLoaded", () => {
   let line = document.getElementById("lineimg");
-  if (window.getComputedStyle(document.body).getPropertyValue("width") == "500px") {
+  if (parseInt(window.getComputedStyle(document.querySelector("main")).getPropertyValue("width")) < 400) {
     line.src = "./images/pattern-divider-mobile.svg";
   }
 })
