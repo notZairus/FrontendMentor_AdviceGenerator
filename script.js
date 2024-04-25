@@ -36,7 +36,7 @@ function displayAdvice(slip) {
 
 window.addEventListener("DOMContentLoaded", () => {
   let line = document.getElementById("lineimg");
-  if (window.getComputedStyle(document.body).getPropertyValue("width") == "410px") {
+  if (window.getComputedStyle(document.body).getPropertyValue("width") == "500px") {
     line.src = "./images/pattern-divider-mobile.svg";
   }
 })
